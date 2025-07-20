@@ -104,6 +104,7 @@ export OPENAI_API_KEY="your-api-key-here"
 > - azure
 > - gemini
 > - ollama
+> - lm-studio
 > - mistral
 > - deepseek
 > - xai
@@ -418,6 +419,11 @@ Below is a comprehensive example of `config.json` with multiple custom providers
       "name": "Ollama",
       "baseURL": "http://localhost:11434/v1",
       "envKey": "OLLAMA_API_KEY"
+    },
+    "lm-studio": {
+      "name": "LM Studio",
+      "baseURL": "http://localhost:1234/v1",
+      "envKey": "LM_STUDIO_API_KEY"
     },
     "mistral": {
       "name": "Mistral",

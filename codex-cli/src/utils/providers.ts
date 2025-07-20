@@ -52,4 +52,9 @@ export const providers: Record<
     baseURL: "https://conductor.arcee.ai/v1",
     envKey: "ARCEEAI_API_KEY",
   },
+  "lm-studio": {
+    name: "LM Studio",
+    baseURL: "http://localhost:1234/v1",
+    envKey: "LM_STUDIO_API_KEY",
+  },
 };
