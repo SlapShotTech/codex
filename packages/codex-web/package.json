@@ -1,0 +1,29 @@
+{
+  "name": "@openai/codex-web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "ts-node server.ts"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.17",
+    "express": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.4.5",
+    "vite": "^6.3.4",
+    "@vitejs/plugin-react": "^4.2.1",
+    "ts-node": "^10.9.1"
+  }
+}
