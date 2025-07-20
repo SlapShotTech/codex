@@ -56,6 +56,14 @@ name = "Ollama"
 base_url = "http://localhost:11434/v1"
 ```
 
+Or if you are using LM Studio locally:
+
+```toml
+[model_providers.lm-studio]
+name = "LM Studio"
+base_url = "http://localhost:1234/v1"
+```
+
 Or a third-party provider (using a distinct environment variable for the API key):
 
 ```toml

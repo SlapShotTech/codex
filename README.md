@@ -108,6 +108,10 @@ To do so, you must first define custom [providers](./config.md#model_providers) 
 [model_providers.ollama]
 name = "Ollama"
 base_url = "http://localhost:11434/v1"
+
+[model_providers.lm-studio]
+name = "LM Studio"
+base_url = "http://localhost:1234/v1"
 ```
 
 The `base_url` will have `/chat/completions` appended to it to build the full URL for the request.
