@@ -18,6 +18,7 @@ This is the home of the **Codex CLI**, which is a coding agent from OpenAI that 
 - [Quickstart](#quickstart)
   - [OpenAI API Users](#openai-api-users)
   - [OpenAI Plus/Pro Users](#openai-pluspro-users)
+- [Web UI](#web-ui)
 - [Why Codex?](#why-codex)
 - [Security model & permissions](#security-model--permissions)
   - [Platform sandboxing details](#platform-sandboxing-details)
@@ -181,6 +182,18 @@ codex --full-auto "create the fanciest todo-list app"
 That's it - Codex will scaffold a file, run it inside a sandbox, install any
 missing dependencies, and show you the live result. Approve the changes and
 they'll be committed to your working directory.
+
+---
+
+## Web UI
+
+For a browser-based experience, you can run the new Web UI package:
+
+```bash
+pnpm --filter @openai/codex-web run dev
+```
+
+This starts a development server at `http://localhost:5173`.
 
 ---
 
